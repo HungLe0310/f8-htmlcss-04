@@ -499,6 +499,7 @@ a {
     font-size: 2.2rem;
     font-weight: 600;
     line-height: 1; /* 100% */
+    cursor: pointer;
 }
 .service__column-header::before {
     position: absolute;
@@ -747,6 +748,7 @@ a {
     height: 56px;
     border: 1px solid rgba(255, 91, 46, 0.6);
     border-radius: 31px;
+    cursor: pointer;
 }
 
 .pricing__label::after {
@@ -1038,6 +1040,7 @@ a {
     font-size: 2.2rem;
     font-weight: 600;
     line-height: 1.5; /* 154.545% */
+    cursor: pointer;
 }
 .blog__card-desc {
     margin-top: 16px;
@@ -1078,6 +1081,7 @@ a {
     width: 45px;
     border-radius: 50%;
     background: #ff5b2e;
+    cursor: pointer;
 }
 
 .footer__follow {
@@ -1125,6 +1129,7 @@ a {
     font-weight: 600;
 }
 
+.footer__item,
 .footer__item a {
     color: var(--desc-color);
     font-size: 1.4rem;
