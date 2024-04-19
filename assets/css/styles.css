@@ -63,9 +63,14 @@ a {
 }
 
 /* Navbar */
-
+.navbar-sticky {
+    position: sticky;
+    top: -15px;
+    z-index: 99;
+    background: #fffaf5;
+}
 .navbar {
-    padding-top: 26px;
+    padding: 26px 0 8px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,7 +108,7 @@ a {
 
 /* Hero */
 .hero {
-    margin: 100px 0 77px;
+    margin: 92px 0 77px;
 }
 .hero__body {
     display: flex;
